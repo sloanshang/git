@@ -31,11 +31,11 @@ ssh-keygen -C 'yourmail@server.com' -t rsa
 如何在 GitHub 上添加 Git 仓库参见： http://help.github.com/create-a-repo/ 
 
 4、在本地创建项目文件，在 Bash 下键入一下代码： 
-mkdir test
-cd test
-git init
-touch README
-git add README
-git commit -m 'first commit'
-git remote add origin git@github.com:youusername/test.git
-git push -u origin master
+mkdir test  
+cd test  
+git init  
+touch README  
+git add README  
+git commit -m 'first commit'  
+git remote add origin git@github.com:youusername/test.git  
+git push -u origin master  
